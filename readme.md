@@ -1,4 +1,4 @@
-# Deploy with ngUniversal y functions
+# Deploy con ngUniversal y functions
 Se describe los pasos para hacer deploy de una app de Angular en con Firebase
 
 ## Requisitos
@@ -10,11 +10,15 @@ Se describe los pasos para hacer deploy de una app de Angular en con Firebase
 ## Instalación
 1. Instala `ng add @nguniversal/express-engine --clientProject <<NOMBRE DEL PROYECTO>>`
 2. Pegar los siguientes archivos al proyecto:
-    - /webpack.server.config.js
-    - /server.ts
-    - /src/tsconfig.server.json
-    - /src/main.server.ts
-    - /src/app/app.server.module.ts
+
+    ../
+    + src/
+        tsconfig.server.json
+        main.server.ts
+        + app/
+            app.server.module.ts
+    webpack.server.config.js
+    server.ts
 
 ## Preparar el proyecto para el deploy
 
